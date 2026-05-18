@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сүлжээний Админ Самбар</title>
-    <link rel="stylesheet" href="admin-styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="admin-container">
@@ -116,7 +116,7 @@
                         <button class="btn btn-primary" id="startMonitorBtn">▶️ Хяналт эхлүүлэх</button>
                         <button class="btn btn-danger" id="stopMonitorBtn" style="display: none;">⏹️ Зогсоох</button>
                         <button class="btn btn-secondary" id="clearLogBtn">🗑️ Лог цэвэрлэх</button>
-                        <div class="monitor-status" id="monitorStatus">Идэвхгүй</div>
+                        <div class="monitor-status" id="monitorStatus">🔴 Идэвхгүй</div>
                     </div>
                     <div class="monitor-log" id="monitorLog">
                         <div class="log-entry log-warning">[00:00:00] Хяналтын систем бэлэн байна</div>
@@ -131,7 +131,7 @@
                 <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
                     <h3 style="color: #1e3c72; margin-bottom: 15px;">📊 Сайтуудын ажилласан цаг</h3>
                     <div id="analyticsContent" style="color: #666;">
-                        <p>Сайтууд бүртгүүлсэн нотлох мэдээлэл байхгүй</p>
+                        <p>Сайтууд бүртгүүлсэн мэдээлэл байхгүй</p>
                     </div>
                 </div>
             </section>
@@ -200,6 +200,6 @@
         </div>
     </div>
 
-    <script src="admin-script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
